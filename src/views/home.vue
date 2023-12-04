@@ -2,11 +2,11 @@
   <div id="cva">
     This is Home Page.
     Served by cva
+    <jsxDemo> jsx </jsxDemo>
   </div>
 </template>
 
-<script>
-export default {
+<script setup>
+import jsxDemo from './jsxDemo.vue'
 
-}
 </script>
