@@ -20,6 +20,7 @@
     "not dead"
   ],
   "dependencies": {
+    "core-js": "^3.33.3",
     "element-plus": "2.4.3",
     "vue": "3.3.9",
     "vue-router": "4.2.5"
