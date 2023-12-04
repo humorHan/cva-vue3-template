@@ -20,6 +20,7 @@
     "not dead"
   ],
   "dependencies": {
+    "@vue/babel-plugin-jsx": "^1.1.5",
     "core-js": "^3.33.3",
     "element-plus": "2.4.3",
     "vue": "3.3.9",
