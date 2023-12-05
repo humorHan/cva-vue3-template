@@ -20,7 +20,6 @@
     "not dead"
   ],
   "dependencies": {
-    "@vue/babel-plugin-jsx": "^1.1.5",
     "core-js": "^3.33.3",
     "element-plus": "2.4.3",
     "vue": "3.3.9",
@@ -36,7 +35,8 @@
     "@babel/plugin-proposal-optional-chaining": "^7.21.0",
     "@babel/plugin-transform-runtime": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
-    "@humorhan/cva": "^1.0.0"
+    "@humorhan/cva": "^1.0.0",
+    "@vue/babel-plugin-jsx": "^1.1.5"
   },
   "engines": {
     "node": "^12.20.0 || >=14.0.0"
