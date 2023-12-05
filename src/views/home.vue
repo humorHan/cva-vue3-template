@@ -2,7 +2,7 @@
   <div id="cva">
     This is Home Page.
     Served by cva
-    <jsxDemo> jsx </jsxDemo>
+    <jsxDemo class="jsx"> jsx </jsxDemo>
   </div>
 </template>
 
@@ -10,3 +10,10 @@
 import jsxDemo from './jsxDemo.vue'
 
 </script>
+<style lang="scss">
+#cva {
+  .jsx {
+    color: gray
+  }
+}
+</style>

@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "serve": "cva serve",
-    "build": "cva build"
+    "build": "cva build",
+    "prepare": "husky install",
+    "lint:js": "eslint ./src --fix --ext .js,.jsx,.vue",
+    "lint:css": "stylelint --fix"
   },
   "keywords": [
     "cva-vue3-template",
@@ -14,6 +17,18 @@
   ],
   "author": "humorHan",
   "license": "ISC",
+  "lint-staged": {
+    "**/*.js": [
+      "yarn lint:js"
+    ],
+    "**/*.vue": [
+      "yarn lint:js",
+      "yarn lint:css"
+    ],
+    "**/*.{css,scss}": [
+      "yarn lint:css"
+    ]
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -22,21 +37,38 @@
   "dependencies": {
     "core-js": "^3.33.3",
     "element-plus": "2.4.3",
-    "vue": "3.3.9",
+    "vue": "^3.3.10",
     "vue-router": "4.2.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.0",
+    "@babel/core": "^7.23.5",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
-    "@babel/plugin-proposal-export-default-from": "^7.14.5",
+    "@babel/plugin-proposal-export-default-from": "^7.23.3",
     "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
     "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
     "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "@babel/plugin-proposal-optional-chaining": "^7.21.0",
-    "@babel/plugin-transform-runtime": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
-    "@humorhan/cva": "^1.0.0",
-    "@vue/babel-plugin-jsx": "^1.1.5"
+    "@babel/plugin-transform-runtime": "^7.23.4",
+    "@babel/preset-env": "^7.23.5",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@humorhan/cva": "^1.0.1",
+    "@vue/babel-plugin-jsx": "^1.1.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-vue": "^7.15.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.1.2",
+    "postcss-html": "^1.5.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recommended-scss": "^13.1.0",
+    "stylelint-config-recommended-vue": "^1.5.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-config-standard-scss": "^11.1.0",
+    "vue-eslint-parser": "^7.10.0"
   },
   "engines": {
     "node": "^12.20.0 || >=14.0.0"

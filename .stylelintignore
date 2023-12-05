@@ -1,0 +1,7 @@
+theme/
+normalize.scss
+static/
+node_modules/
+static/
+dist/
+.idea/

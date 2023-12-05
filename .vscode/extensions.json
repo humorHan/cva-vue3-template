@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "vue.volar",
+    "hollowtree.vue-snippets",
+    "Hex.stylelint-plus",
+    "yzhang.markdown-all-in-one"
+  ]
+}
