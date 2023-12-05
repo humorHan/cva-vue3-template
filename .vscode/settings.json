@@ -1,11 +1,6 @@
 {
-  "eslint.nodePath": "/Users/humor/.nvm/versions/node/v18.16.1",
-  "eslint.options": {
-    "resolvePluginsRelativeTo": "/Users/humor/mine/cva-vue3-template",
-  },
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
-  "eslint.packageManager": "yarn",
   "search.exclude": {
     "**/node_modules": true,
     "**/static": true
