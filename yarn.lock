@@ -1104,17 +1104,17 @@
     "@csstools/color-helpers" "^3.0.2"
     "@csstools/css-calc" "^1.1.4"
 
-"@csstools/css-parser-algorithms@2.3.2", "@csstools/css-parser-algorithms@^2.3.1", "@csstools/css-parser-algorithms@^2.3.2":
+"@csstools/css-parser-algorithms@2.3.2", "@csstools/css-parser-algorithms@^2.3.2":
   version "2.3.2"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/@csstools/css-parser-algorithms/-/css-parser-algorithms-2.3.2.tgz"
   integrity sha512-sLYGdAdEY2x7TSw9FtmdaTrh2wFtRJO5VMbBrA8tEqEod7GEggFmxTSK9XqExib3yMuYNcvcTdCZIP6ukdjAIA==
 
-"@csstools/css-tokenizer@^2.2.0", "@csstools/css-tokenizer@^2.2.1":
+"@csstools/css-tokenizer@^2.2.1":
   version "2.2.1"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/@csstools/css-tokenizer/-/css-tokenizer-2.2.1.tgz"
   integrity sha512-Zmsf2f/CaEPWEVgw29odOj+WEVoiJy9s9NOv5GgNY9mZ1CZ7394By6wONrONrTsnNDv6F9hR02nvFihrGVGHBg==
 
-"@csstools/media-query-list-parser@^2.1.4", "@csstools/media-query-list-parser@^2.1.5":
+"@csstools/media-query-list-parser@^2.1.5":
   version "2.1.5"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/@csstools/media-query-list-parser/-/media-query-list-parser-2.1.5.tgz"
   integrity sha512-IxVBdYzR8pYe89JiyXQuYk4aVVoCPhMJkz6ElRwlVysjwURTsTk/bmY/z4FfeRE+CRBMlykPwXEVUg8lThv7AQ==
@@ -1655,11 +1655,6 @@
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/@types/minimatch/download/@types/minimatch-5.1.2.tgz#07508b45797cb81ec3f273011b054cd0755eddca"
   integrity sha1-B1CLRXl8uB7D8nMBGwVM0HVe3co=
 
-"@types/minimist@^1.2.2":
-  version "1.2.5"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/@types/minimist/-/minimist-1.2.5.tgz"
-  integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
-
 "@types/node-forge@^1.3.0":
   version "1.3.10"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/@types/node-forge/-/node-forge-1.3.10.tgz#62a19d4f75a8b03290578c2b04f294b1a5a71b07"
@@ -1673,11 +1668,6 @@
   integrity sha512-XJavIpZqiXID5Yxnxv3RUDKTN5b81ddNC3ecsA0SoFXz/QU8OGBwZGMomiq0zw+uuqbL/krztv/DINAQ/EV4gg==
   dependencies:
     undici-types "~5.26.4"
-
-"@types/normalize-package-data@^2.4.0":
-  version "2.4.4"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/@types/normalize-package-data/-/normalize-package-data-2.4.4.tgz"
-  integrity sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.2"
@@ -2199,6 +2189,11 @@ ansi-regex@^5.0.1:
   resolved "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
   integrity sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==
 
+ansi-regex@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-6.0.1.tgz#3183e38fae9a65d7cb5e53945cd5897d0260a06a"
+  integrity sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA==
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz"
@@ -2327,11 +2322,6 @@ arraybuffer.prototype.slice@^1.0.2:
     get-intrinsic "^1.2.1"
     is-array-buffer "^3.0.2"
     is-shared-array-buffer "^1.0.2"
-
-arrify@^1.0.1:
-  version "1.0.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/arrify/download/arrify-1.0.1.tgz"
-  integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
 
 astral-regex@^2.0.0:
   version "2.0.0"
@@ -2558,16 +2548,6 @@ camel-case@^4.1.2:
   dependencies:
     pascal-case "^3.1.2"
     tslib "^2.0.3"
-
-camelcase-keys@^7.0.0:
-  version "7.0.2"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/camelcase-keys/download/camelcase-keys-7.0.2.tgz"
-  integrity sha1-0EjYxpRIdFuw3m/EwcUqMN++clI=
-  dependencies:
-    camelcase "^6.3.0"
-    map-obj "^4.1.0"
-    quick-lru "^5.1.1"
-    type-fest "^1.2.1"
 
 camelcase@^6.3.0:
   version "6.3.0"
@@ -2877,6 +2857,16 @@ cosmiconfig@^8.2.0:
     parse-json "^5.2.0"
     path-type "^4.0.0"
 
+cosmiconfig@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-9.0.0.tgz#34c3fc58287b915f3ae905ab6dc3de258b55ad9d"
+  integrity sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==
+  dependencies:
+    env-paths "^2.2.1"
+    import-fresh "^3.3.0"
+    js-yaml "^4.1.0"
+    parse-json "^5.2.0"
+
 cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
@@ -2895,7 +2885,7 @@ css-blank-pseudo@^6.0.0:
 
 css-functions-list@^3.2.1:
   version "3.2.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/css-functions-list/-/css-functions-list-3.2.1.tgz"
+  resolved "https://registry.yarnpkg.com/css-functions-list/-/css-functions-list-3.2.1.tgz#2eb205d8ce9f9ce74c5c1d7490b66b77c45ce3ea"
   integrity sha512-Nj5YcaGgBtuUmn1D7oHqPW0c9iui7xsTsj5lIX8ZgevdfhmjFfKB3r8moHJtNJnctnYXJyYX5I1pp90HM4TPgQ==
 
 css-has-pseudo@^6.0.0:
@@ -2939,8 +2929,8 @@ css-select@^4.1.3:
 
 css-tree@^2.3.1:
   version "2.3.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/css-tree/download/css-tree-2.3.1.tgz"
-  integrity sha1-ECZM4eVELoVy/IL75JBkT/VLXCA=
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.3.1.tgz#10264ce1e5442e8572fc82fbe490644ff54b5c20"
+  integrity sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==
   dependencies:
     mdn-data "2.0.30"
     source-map-js "^1.0.1"
@@ -3002,24 +2992,6 @@ debug@^4.1.0, debug@^4.1.1:
   integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
   dependencies:
     ms "2.1.2"
-
-decamelize-keys@^1.1.0:
-  version "1.1.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/decamelize-keys/download/decamelize-keys-1.1.1.tgz"
-  integrity sha1-BKLVI7LxjYDQFYpDuJXVbf+NGdg=
-  dependencies:
-    decamelize "^1.1.0"
-    map-obj "^1.0.0"
-
-decamelize@^1.1.0:
-  version "1.2.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/decamelize/download/decamelize-1.2.0.tgz"
-  integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
-
-decamelize@^5.0.0:
-  version "5.0.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/decamelize/download/decamelize-5.0.1.tgz"
-  integrity sha1-2xGpLljHQe8zn7Ciho2KBqmnsek=
 
 deep-is@^0.1.3:
   version "0.1.4"
@@ -3282,6 +3254,11 @@ entities@^4.2.0, entities@^4.4.0:
   version "4.5.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/entities/download/entities-4.5.0.tgz"
   integrity sha1-XSaOpecRPsdMTQM7eepaNaSI+0g=
+
+env-paths@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/env-paths/-/env-paths-2.2.1.tgz#420399d416ce1fbe9bc0a07c62fa68d67fd0f8f2"
+  integrity sha512-+h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk/qsqSTRRCOXiLjeQ1d1/udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A==
 
 error-ex@^1.3.1:
   version "1.3.2"
@@ -3669,7 +3646,7 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
-fast-glob@^3.2.9, fast-glob@^3.3.1:
+fast-glob@^3.2.9, fast-glob@^3.3.2:
   version "3.3.2"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/fast-glob/-/fast-glob-3.3.2.tgz"
   integrity sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==
@@ -3723,9 +3700,9 @@ file-entry-cache@^6.0.1:
   dependencies:
     flat-cache "^3.0.4"
 
-file-entry-cache@^7.0.0:
+file-entry-cache@^7.0.2:
   version "7.0.2"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/file-entry-cache/-/file-entry-cache-7.0.2.tgz"
+  resolved "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-7.0.2.tgz#2d61bb70ba89b9548e3035b7c9173fe91deafff0"
   integrity sha512-TfW7/1iI4Cy7Y8L6iqNdZQVvdXn0f8B4QcIXmkIbtTIe/Okm/nSlHb4IwGzRVOd3WfSieCgvf5cMzEfySAIl0g==
   dependencies:
     flat-cache "^3.2.0"
@@ -3757,14 +3734,6 @@ find-cache-dir@^4.0.0:
   dependencies:
     common-path-prefix "^3.0.0"
     pkg-dir "^7.0.0"
-
-find-up@^5.0.0:
-  version "5.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/find-up/download/find-up-5.0.0.tgz"
-  integrity sha1-TJKBnstwg1YeT0okCoa+UZj1Nvw=
-  dependencies:
-    locate-path "^6.0.0"
-    path-exists "^4.0.0"
 
 find-up@^6.3.0:
   version "6.3.0"
@@ -4030,11 +3999,6 @@ handle-thing@^2.0.0:
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/handle-thing/download/handle-thing-2.0.1.tgz#857f79ce359580c340d43081cc648970d0bb234e"
   integrity sha1-hX95zjWVgMNA1DCBzGSJcNC7I04=
 
-hard-rejection@^2.1.0:
-  version "2.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/hard-rejection/download/hard-rejection-2.1.0.tgz"
-  integrity sha1-HG7aXBaFxjlCdm15u0Cudzzs2IM=
-
 has-bigints@^1.0.1, has-bigints@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/has-bigints/download/has-bigints-1.0.2.tgz"
@@ -4107,13 +4071,6 @@ he@^1.2.0:
   version "1.2.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/he/download/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
-
-hosted-git-info@^4.0.1:
-  version "4.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/hosted-git-info/download/hosted-git-info-4.1.0.tgz"
-  integrity sha1-gnuChn6f8cjQxNnVOIA5fSyG0iQ=
-  dependencies:
-    lru-cache "^6.0.0"
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -4267,7 +4224,7 @@ ignore@^4.0.6:
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/ignore/download/ignore-4.0.6.tgz"
   integrity sha1-dQ49tYYgh7RzfrrIIH/9HvJ7Jfw=
 
-ignore@^5.2.0, ignore@^5.2.4:
+ignore@^5.2.0, ignore@^5.3.0:
   version "5.3.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/ignore/-/ignore-5.3.0.tgz"
   integrity sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==
@@ -4285,11 +4242,6 @@ import-fresh@^3.0.0, import-fresh@^3.2.1, import-fresh@^3.3.0:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
 
-import-lazy@^4.0.0:
-  version "4.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/import-lazy/download/import-lazy-4.0.0.tgz"
-  integrity sha1-6OtidIOgpD2jwD8+NVSL5csMwVM=
-
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/imurmurhash/download/imurmurhash-0.1.4.tgz"
@@ -4299,11 +4251,6 @@ indent-string@^4.0.0:
   version "4.0.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/indent-string/download/indent-string-4.0.0.tgz"
   integrity sha1-Yk+PRJfWGbLZdoUx1Y9BIoVNclE=
-
-indent-string@^5.0.0:
-  version "5.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/indent-string/download/indent-string-5.0.0.tgz"
-  integrity sha1-T9KYD8yvhiLRTGTWlPTPM8gZUaU=
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -4408,7 +4355,7 @@ is-callable@^1.1.3, is-callable@^1.1.4, is-callable@^1.2.7:
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/is-callable/download/is-callable-1.2.7.tgz"
   integrity sha1-O8KoXqdC2eNiBdys3XLKH9xRsFU=
 
-is-core-module@^2.13.0, is-core-module@^2.13.1, is-core-module@^2.5.0:
+is-core-module@^2.13.0, is-core-module@^2.13.1:
   version "2.13.1"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/is-core-module/-/is-core-module-2.13.1.tgz"
   integrity sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==
@@ -4501,11 +4448,6 @@ is-path-inside@^2.1.0:
   integrity sha1-fJgQWH1lmkDSe8201WFuqwWUlLI=
   dependencies:
     path-is-inside "^1.0.2"
-
-is-plain-obj@^1.1.0:
-  version "1.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/is-plain-obj/download/is-plain-obj-1.1.0.tgz"
-  integrity sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
 
 is-plain-obj@^3.0.0:
   version "3.0.0"
@@ -4702,7 +4644,7 @@ keyv@^4.5.3:
   dependencies:
     json-buffer "3.0.1"
 
-kind-of@^6.0.2, kind-of@^6.0.3:
+kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
@@ -4789,13 +4731,6 @@ loader-utils@^2.0.0:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^2.1.2"
-
-locate-path@^6.0.0:
-  version "6.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/locate-path/download/locate-path-6.0.0.tgz"
-  integrity sha1-VTIeswn+u8WcSAHZMackUqaB0oY=
-  dependencies:
-    p-locate "^5.0.0"
 
 locate-path@^7.1.0:
   version "7.2.0"
@@ -4888,16 +4823,6 @@ magic-string@^0.30.5:
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.15"
 
-map-obj@^1.0.0:
-  version "1.0.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/map-obj/download/map-obj-1.0.1.tgz"
-  integrity sha1-2TPOuSBdgr3PSIb2dCvcK03qFG0=
-
-map-obj@^4.1.0:
-  version "4.3.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/map-obj/download/map-obj-4.3.0.tgz"
-  integrity sha1-kwT5Buk/qucIgNoQKp8d8OqLsFo=
-
 mathml-tag-names@^2.1.3:
   version "2.1.3"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/mathml-tag-names/download/mathml-tag-names-2.1.3.tgz"
@@ -4905,8 +4830,8 @@ mathml-tag-names@^2.1.3:
 
 mdn-data@2.0.30:
   version "2.0.30"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/mdn-data/download/mdn-data-2.0.30.tgz"
-  integrity sha1-zk32+Ar2z74hjs1cVSuhPE36CMw=
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.30.tgz#ce4df6f80af6cfbe218ecd5c552ba13c4dfa08cc"
+  integrity sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -4925,23 +4850,10 @@ memoize-one@^6.0.0:
   resolved "https://registry.npmjs.org/memoize-one/-/memoize-one-6.0.0.tgz"
   integrity sha512-rkpe71W0N0c0Xz6QD0eJETuWAJGnJ9afsl1srmwPrI+yBCkge5EycXXbYRyvL29zZVUWQCY7InPRCv3GDXuZNw==
 
-meow@^10.1.5:
-  version "10.1.5"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/meow/download/meow-10.1.5.tgz"
-  integrity sha1-vlKh2HtfVphgKw8yh17llAkEqn8=
-  dependencies:
-    "@types/minimist" "^1.2.2"
-    camelcase-keys "^7.0.0"
-    decamelize "^5.0.0"
-    decamelize-keys "^1.1.0"
-    hard-rejection "^2.1.0"
-    minimist-options "4.1.0"
-    normalize-package-data "^3.0.2"
-    read-pkg-up "^8.0.0"
-    redent "^4.0.0"
-    trim-newlines "^4.0.2"
-    type-fest "^1.2.2"
-    yargs-parser "^20.2.9"
+meow@^12.1.1:
+  version "12.1.1"
+  resolved "https://registry.yarnpkg.com/meow/-/meow-12.1.1.tgz#e558dddbab12477b69b2e9a2728c327f191bace6"
+  integrity sha512-BhXM0Au22RwUneMPwSCnyhTOizdWoIEPU9sp0Aqa1PnDMR5Wv2FGXYDjuzJEIX+Eo2Rb8xuYe5jrnm5QowQFkw==
 
 merge-descriptors@1.0.1:
   version "1.0.1"
@@ -5000,11 +4912,6 @@ mimic-fn@^2.1.0:
   resolved "https://registry.npmjs.org/mimic-fn/-/mimic-fn-2.1.0.tgz"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-min-indent@^1.0.1:
-  version "1.0.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/min-indent/download/min-indent-1.0.1.tgz"
-  integrity sha1-pj9oFnOzBXH76LwlaGrnRu76mGk=
-
 mini-css-extract-plugin@2.7.6:
   version "2.7.6"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/mini-css-extract-plugin/download/mini-css-extract-plugin-2.7.6.tgz#282a3d38863fddcd2e0c220aaed5b90bc156564d"
@@ -5030,15 +4937,6 @@ minimatch@^3.1.1, minimatch@^3.1.2:
   integrity sha1-Gc0ZS/0+Qo8EmnCBfAONiatL41s=
   dependencies:
     brace-expansion "^1.1.7"
-
-minimist-options@4.1.0:
-  version "4.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/minimist-options/download/minimist-options-4.1.0.tgz"
-  integrity sha1-wGVXE8U6ii69d/+iR9NCxA8BBhk=
-  dependencies:
-    arrify "^1.0.1"
-    is-plain-obj "^1.1.0"
-    kind-of "^6.0.3"
 
 minimist@^1.2.0:
   version "1.2.5"
@@ -5120,16 +5018,6 @@ node-releases@^2.0.14:
   version "2.0.14"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/node-releases/-/node-releases-2.0.14.tgz"
   integrity sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==
-
-normalize-package-data@^3.0.2:
-  version "3.0.3"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/normalize-package-data/download/normalize-package-data-3.0.3.tgz"
-  integrity sha1-28w+LaWVCaCYNCKITNFy7v36Ul4=
-  dependencies:
-    hosted-git-info "^4.0.1"
-    is-core-module "^2.5.0"
-    semver "^7.3.4"
-    validate-npm-package-license "^3.0.1"
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
@@ -5299,26 +5187,12 @@ os-tmpdir@~1.0.2:
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
 
-p-limit@^3.0.2:
-  version "3.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/p-limit/download/p-limit-3.1.0.tgz"
-  integrity sha1-4drMvnjQ0TiMoYxk/qOOPlfjcGs=
-  dependencies:
-    yocto-queue "^0.1.0"
-
 p-limit@^4.0.0:
   version "4.0.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/p-limit/download/p-limit-4.0.0.tgz#914af6544ed32bfa54670b061cafcbd04984b644"
   integrity sha1-kUr2VE7TK/pUZwsGHK/L0EmEtkQ=
   dependencies:
     yocto-queue "^1.0.0"
-
-p-locate@^5.0.0:
-  version "5.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/p-locate/download/p-locate-5.0.0.tgz"
-  integrity sha1-g8gxXGeFAF470CGDlBHJ4RDm2DQ=
-  dependencies:
-    p-limit "^3.0.2"
 
 p-locate@^6.0.0:
   version "6.0.0"
@@ -5384,11 +5258,6 @@ pascal-case@^3.1.2:
   dependencies:
     no-case "^3.0.4"
     tslib "^2.0.3"
-
-path-exists@^4.0.0:
-  version "4.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/path-exists/download/path-exists-4.0.0.tgz"
-  integrity sha1-UTvb4tO5XXdi6METfvoZXGxhtbM=
 
 path-exists@^5.0.0:
   version "5.0.0"
@@ -5777,6 +5646,11 @@ postcss-safe-parser@^6.0.0:
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/postcss-safe-parser/download/postcss-safe-parser-6.0.0.tgz"
   integrity sha1-u0wpiUFxqUvFyZa5owMX70Aq2qE=
 
+postcss-safe-parser@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-safe-parser/-/postcss-safe-parser-7.0.0.tgz#6273d4e5149e286db5a45bc6cf6eafcad464014a"
+  integrity sha512-ovehqRNVCpuFzbXoTb4qLtyzK3xn3t/CUBxOs8LsnQjQrShaB4lKiHoVqY8ANaC0hBMHq5QVWk77rwGklFUDrg==
+
 postcss-scss@^4.0.9:
   version "4.0.9"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/postcss-scss/-/postcss-scss-4.0.9.tgz"
@@ -5810,7 +5684,7 @@ postcss@^7.0.36:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.2.14, postcss@^8.4.0, postcss@^8.4.21, postcss@^8.4.28, postcss@^8.4.31, postcss@^8.4.32:
+postcss@^8.2.14, postcss@^8.4.0, postcss@^8.4.21, postcss@^8.4.31, postcss@^8.4.32:
   version "8.4.32"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/postcss/-/postcss-8.4.32.tgz"
   integrity sha512-D/kj5JNu6oo2EIy+XL/26JEDTlIbB8hw85G8StOE6L74RQAVVP5rej6wxCNqyMbR4RkPfqvezVbPw81Ngd6Kcw==
@@ -5828,6 +5702,11 @@ prelude-ls@^1.2.1:
   version "2.8.8"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/prettier/download/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha1-6MXX6YpDBf/j3i4fxKyhpxwosdo=
+
+prettier@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.1.tgz#6ba9f23165d690b6cbdaa88cb0807278f7019848"
+  integrity sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==
 
 pretty-error@^4.0.0:
   version "4.0.0"
@@ -5882,11 +5761,6 @@ queue-microtask@^1.2.2:
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/queue-microtask/download/queue-microtask-1.2.3.tgz"
   integrity sha1-SSkii7xyTfrEPg77BYyve2z7YkM=
 
-quick-lru@^5.1.1:
-  version "5.1.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/quick-lru/download/quick-lru-5.1.1.tgz"
-  integrity sha1-NmST5rPkKjpoheLpnRj4D7eoyTI=
-
 randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/randombytes/download/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -5908,25 +5782,6 @@ raw-body@2.5.1:
     http-errors "2.0.0"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
-
-read-pkg-up@^8.0.0:
-  version "8.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/read-pkg-up/download/read-pkg-up-8.0.0.tgz"
-  integrity sha1-cvWVtl5mEQ9DsFLdmvTeaxBTRnA=
-  dependencies:
-    find-up "^5.0.0"
-    read-pkg "^6.0.0"
-    type-fest "^1.0.1"
-
-read-pkg@^6.0.0:
-  version "6.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/read-pkg/download/read-pkg-6.0.0.tgz"
-  integrity sha1-pnp9ahwrDDzWqi6lIfQMRYpKUEw=
-  dependencies:
-    "@types/normalize-package-data" "^2.4.0"
-    normalize-package-data "^3.0.2"
-    parse-json "^5.2.0"
-    type-fest "^1.0.1"
 
 readable-stream@^2.0.1:
   version "2.3.8"
@@ -5956,14 +5811,6 @@ readdirp@~3.6.0:
   integrity sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc=
   dependencies:
     picomatch "^2.2.1"
-
-redent@^4.0.0:
-  version "4.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/redent/download/redent-4.0.0.tgz"
-  integrity sha1-DAunyquyQlerO7ek/ZXdHVxWgfk=
-  dependencies:
-    indent-string "^5.0.0"
-    strip-indent "^4.0.0"
 
 regenerate-unicode-properties@^10.1.0:
   version "10.1.1"
@@ -6244,7 +6091,7 @@ semver@^6.3.0, semver@^6.3.1:
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/semver/download/semver-6.3.1.tgz"
   integrity sha1-VW0u+GiRRuRtzqS/3QlfNDTf/LQ=
 
-semver@^7.2.1, semver@^7.3.4, semver@^7.3.5, semver@^7.3.8:
+semver@^7.2.1, semver@^7.3.5, semver@^7.3.8:
   version "7.5.4"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/semver/download/semver-7.5.4.tgz"
   integrity sha1-SDmG7E7TjhxsSMNIlKkYLb/2im4=
@@ -6369,7 +6216,7 @@ signal-exit@^3.0.2, signal-exit@^3.0.3:
 
 signal-exit@^4.0.1:
   version "4.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/signal-exit/-/signal-exit-4.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.1.0.tgz#952188c1cbd546070e2dd20d0f41c0ae0530cb04"
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
 sirv@^2.0.3:
@@ -6413,15 +6260,10 @@ sockjs@^0.3.24:
     uuid "^8.3.2"
     websocket-driver "^0.7.4"
 
-"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.1, source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/source-map-js/download/source-map-js-1.0.2.tgz"
   integrity sha1-rbw2HZxi3zgBJefxYfccgm8eSQw=
-
-source-map-js@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.1.tgz"
-  integrity sha512-4+TN2b3tqOCd/kaGRJ/sTYA0tR0mdXx26ipdolxcwtJVqEnqNYvlCAt1q3ypy4QMlYus+Zh34RNtYLoq2oQ4IA==
 
 source-map-support@~0.5.20:
   version "0.5.21"
@@ -6435,32 +6277,6 @@ source-map@0.6.1, source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, sourc
   version "0.6.1"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/source-map/download/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
-
-spdx-correct@^3.0.0:
-  version "3.2.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/spdx-correct/download/spdx-correct-3.2.0.tgz"
-  integrity sha1-T1qwZo8AWeNPnADc4zF4ShLeTpw=
-  dependencies:
-    spdx-expression-parse "^3.0.0"
-    spdx-license-ids "^3.0.0"
-
-spdx-exceptions@^2.1.0:
-  version "2.3.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/spdx-exceptions/download/spdx-exceptions-2.3.0.tgz"
-  integrity sha1-PyjOGnegA3JoPq3kpDMYNSeiFj0=
-
-spdx-expression-parse@^3.0.0:
-  version "3.0.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/spdx-expression-parse/download/spdx-expression-parse-3.0.1.tgz"
-  integrity sha1-z3D1BILu/cmOPOCmgz5KU87rpnk=
-  dependencies:
-    spdx-exceptions "^2.1.0"
-    spdx-license-ids "^3.0.0"
-
-spdx-license-ids@^3.0.0:
-  version "3.0.16"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/spdx-license-ids/-/spdx-license-ids-3.0.16.tgz"
-  integrity sha512-eWN+LnM3GR6gPu35WxNgbGl8rmY1AEmoMDvL/QD6zYmPWgywxWqJWNdLGT+ke8dKNWrcYgYjPpG5gbTfghP8rw==
 
 spdy-transport@^3.0.0:
   version "3.0.0"
@@ -6578,6 +6394,13 @@ strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   dependencies:
     ansi-regex "^5.0.1"
 
+strip-ansi@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-7.1.0.tgz#d5b6568ca689d8561370b0707685d22434faff45"
+  integrity sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ==
+  dependencies:
+    ansi-regex "^6.0.1"
+
 strip-bom@^3.0.0:
   version "3.0.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/strip-bom/download/strip-bom-3.0.0.tgz"
@@ -6587,13 +6410,6 @@ strip-final-newline@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/strip-final-newline/-/strip-final-newline-2.0.0.tgz"
   integrity sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==
-
-strip-indent@^4.0.0:
-  version "4.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/strip-indent/download/strip-indent-4.0.0.tgz"
-  integrity sha1-tBN5Qz3Qb16ugF4h1jHgfuZw2FM=
-  dependencies:
-    min-indent "^1.0.1"
 
 strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   version "3.1.1"
@@ -6605,24 +6421,19 @@ style-loader@^3.3.3:
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/style-loader/download/style-loader-3.3.3.tgz#bba8daac19930169c0c9c96706749a597ae3acff"
   integrity sha1-u6jarBmTAWnAyclnBnSaWXrjrP8=
 
-style-search@^0.1.0:
-  version "0.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/style-search/download/style-search-0.1.0.tgz"
-  integrity sha1-eVjHk+R+MuB9K1yv5cC/jhLneQI=
-
 stylelint-config-html@>=1.0.0, stylelint-config-html@^1.1.0:
   version "1.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/stylelint-config-html/-/stylelint-config-html-1.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/stylelint-config-html/-/stylelint-config-html-1.1.0.tgz#999db19aea713b7ff6dde92ada76e4c1bd812b66"
   integrity sha512-IZv4IVESjKLumUGi+HWeb7skgO6/g4VMuAYrJdlqQFndgbj6WJAXPhaysvBiXefX79upBdQVumgYcdd17gCpjQ==
 
-stylelint-config-recommended-scss@^13.1.0:
-  version "13.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-13.1.0.tgz"
-  integrity sha512-8L5nDfd+YH6AOoBGKmhH8pLWF1dpfY816JtGMePcBqqSsLU+Ysawx44fQSlMOJ2xTfI9yTGpup5JU77c17w1Ww==
+stylelint-config-recommended-scss@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-14.0.0.tgz#d3482c9817dada80b5ec01685b38fc8af8f7263f"
+  integrity sha512-HDvpoOAQ1RpF+sPbDOT2Q2/YrBDEJDnUymmVmZ7mMCeNiFSdhRdyGEimBkz06wsN+HaFwUh249gDR+I9JR7Onw==
   dependencies:
     postcss-scss "^4.0.9"
-    stylelint-config-recommended "^13.0.0"
-    stylelint-scss "^5.3.0"
+    stylelint-config-recommended "^14.0.0"
+    stylelint-scss "^6.0.0"
 
 stylelint-config-recommended-vue@^1.5.0:
   version "1.5.0"
@@ -6633,30 +6444,35 @@ stylelint-config-recommended-vue@^1.5.0:
     stylelint-config-html ">=1.0.0"
     stylelint-config-recommended ">=6.0.0"
 
-stylelint-config-recommended@>=6.0.0, stylelint-config-recommended@^13.0.0:
+stylelint-config-recommended@>=6.0.0:
   version "13.0.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/stylelint-config-recommended/-/stylelint-config-recommended-13.0.0.tgz"
   integrity sha512-EH+yRj6h3GAe/fRiyaoO2F9l9Tgg50AOFhaszyfov9v6ayXJ1IkSHwTxd7lB48FmOeSGDPLjatjO11fJpmarkQ==
 
-stylelint-config-standard-scss@^11.1.0:
-  version "11.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/stylelint-config-standard-scss/-/stylelint-config-standard-scss-11.1.0.tgz"
-  integrity sha512-5gnBgeNTgRVdchMwiFQPuBOtj9QefYtfXiddrOMJA2pI22zxt6ddI2s+e5Oh7/6QYl7QLJujGnaUR5YyGq72ow==
-  dependencies:
-    stylelint-config-recommended-scss "^13.1.0"
-    stylelint-config-standard "^34.0.0"
+stylelint-config-recommended@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-14.0.0.tgz#b395c7014838d2aaca1755eebd914d0bb5274994"
+  integrity sha512-jSkx290CglS8StmrLp2TxAppIajzIBZKYm3IxT89Kg6fGlxbPiTiyH9PS5YUuVAFwaJLl1ikiXX0QWjI0jmgZQ==
 
-stylelint-config-standard@^34.0.0:
-  version "34.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/stylelint-config-standard/-/stylelint-config-standard-34.0.0.tgz"
-  integrity sha512-u0VSZnVyW9VSryBG2LSO+OQTjN7zF9XJaAJRX/4EwkmU0R2jYwmBSN10acqZisDitS0CLiEiGjX7+Hrq8TAhfQ==
+stylelint-config-standard-scss@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-standard-scss/-/stylelint-config-standard-scss-12.0.0.tgz#fbd7881080eb3585ca63c1ce6791a5ff42c94489"
+  integrity sha512-ATh3EcEOLZq0iwlFaBdIsSavrla0lNtJ7mO7hdE7DgVT6imozRggFSqd4cFcjzVnOLKv/uJT63MmqA1acIflbw==
   dependencies:
-    stylelint-config-recommended "^13.0.0"
+    stylelint-config-recommended-scss "^14.0.0"
+    stylelint-config-standard "^35.0.0"
 
-stylelint-scss@^5.3.0:
-  version "5.3.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/stylelint-scss/-/stylelint-scss-5.3.1.tgz"
-  integrity sha512-5I9ZDIm77BZrjOccma5WyW2nJEKjXDd4Ca8Kk+oBapSO4pewSlno3n+OyimcyVJJujQZkBN2D+xuMkIamSc6hA==
+stylelint-config-standard@^35.0.0:
+  version "35.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-35.0.0.tgz#f4574670affb72b6c99d2b5ca5ad010a11ee8d19"
+  integrity sha512-JyQrNZk2BZwVKFauGGxW2U6RuhIfQ4XoHHo+rBzMHcAkLnwI/knpszwXjzxiMgSfcxbZBckM7Vq4LHoANTR85g==
+  dependencies:
+    stylelint-config-recommended "^14.0.0"
+
+stylelint-scss@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-6.0.0.tgz#bf6be6798d71c898484b7e97007d5ed69a89308d"
+  integrity sha512-N1xV/Ef5PNRQQt9E45unzGvBUN1KZxCI8B4FgN/pMfmyRYbZGVN4y9qWlvOMdScU17c8VVCnjIHTVn38Bb6qSA==
   dependencies:
     known-css-properties "^0.29.0"
     postcss-media-query-parser "^0.2.3"
@@ -6664,47 +6480,45 @@ stylelint-scss@^5.3.0:
     postcss-selector-parser "^6.0.13"
     postcss-value-parser "^4.2.0"
 
-stylelint@^15.11.0:
-  version "15.11.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/stylelint/-/stylelint-15.11.0.tgz"
-  integrity sha512-78O4c6IswZ9TzpcIiQJIN49K3qNoXTM8zEJzhaTE/xRTCZswaovSEVIa/uwbOltZrk16X4jAxjaOhzz/hTm1Kw==
+stylelint@^16.0.2:
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-16.0.2.tgz#fe49e9ff7460d9ae98501e9116884238432ea31e"
+  integrity sha512-SxA/rg3VWxdoHZlW0nmVueWO1E7TAKW4W6mmA3iTxxEF9bIeQdFZu2oiBlQYyNe1pGnOamOqo2XYnI7cs5Bgow==
   dependencies:
-    "@csstools/css-parser-algorithms" "^2.3.1"
-    "@csstools/css-tokenizer" "^2.2.0"
-    "@csstools/media-query-list-parser" "^2.1.4"
+    "@csstools/css-parser-algorithms" "^2.3.2"
+    "@csstools/css-tokenizer" "^2.2.1"
+    "@csstools/media-query-list-parser" "^2.1.5"
     "@csstools/selector-specificity" "^3.0.0"
     balanced-match "^2.0.0"
     colord "^2.9.3"
-    cosmiconfig "^8.2.0"
+    cosmiconfig "^9.0.0"
     css-functions-list "^3.2.1"
     css-tree "^2.3.1"
     debug "^4.3.4"
-    fast-glob "^3.3.1"
+    fast-glob "^3.3.2"
     fastest-levenshtein "^1.0.16"
-    file-entry-cache "^7.0.0"
+    file-entry-cache "^7.0.2"
     global-modules "^2.0.0"
     globby "^11.1.0"
     globjoin "^0.1.4"
     html-tags "^3.3.1"
-    ignore "^5.2.4"
-    import-lazy "^4.0.0"
+    ignore "^5.3.0"
     imurmurhash "^0.1.4"
     is-plain-object "^5.0.0"
     known-css-properties "^0.29.0"
     mathml-tag-names "^2.1.3"
-    meow "^10.1.5"
+    meow "^12.1.1"
     micromatch "^4.0.5"
     normalize-path "^3.0.0"
     picocolors "^1.0.0"
-    postcss "^8.4.28"
+    postcss "^8.4.32"
     postcss-resolve-nested-selector "^0.1.1"
-    postcss-safe-parser "^6.0.0"
+    postcss-safe-parser "^7.0.0"
     postcss-selector-parser "^6.0.13"
     postcss-value-parser "^4.2.0"
     resolve-from "^5.0.0"
     string-width "^4.2.3"
-    strip-ansi "^6.0.1"
-    style-search "^0.1.0"
+    strip-ansi "^7.1.0"
     supports-hyperlinks "^3.0.0"
     svg-tags "^1.0.0"
     table "^6.8.1"
@@ -6733,8 +6547,8 @@ supports-color@^7.0.0, supports-color@^7.1.0:
 
 supports-hyperlinks@^3.0.0:
   version "3.0.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/supports-hyperlinks/download/supports-hyperlinks-3.0.0.tgz"
-  integrity sha1-xxE1KlyJBwd5tNrVTAWi8UsVyUs=
+  resolved "https://registry.yarnpkg.com/supports-hyperlinks/-/supports-hyperlinks-3.0.0.tgz#c711352a5c89070779b4dad54c05a2f14b15c94b"
+  integrity sha512-QBDPHyPQDRTy9ku4URNGY5Lah8PAaXs6tAAwp55sL5WCsSW7GIfdf6W5ixfziW+t7wh3GVvHyHHyQ1ESsoRvaA==
   dependencies:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
@@ -6830,11 +6644,6 @@ totalist@^3.0.0:
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/totalist/download/totalist-3.0.1.tgz#ba3a3d600c915b1a97872348f79c127475f6acf8"
   integrity sha1-ujo9YAyRWxqXhyNI95wSdHX2rPg=
 
-trim-newlines@^4.0.2:
-  version "4.1.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/trim-newlines/download/trim-newlines-4.1.1.tgz"
-  integrity sha1-KMiN61DtEMe6bcJHRCGQSgATkSU=
-
 tsconfig-paths@^3.14.2:
   version "3.14.2"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/tsconfig-paths/download/tsconfig-paths-3.14.2.tgz"
@@ -6866,11 +6675,6 @@ type-fest@^0.21.3:
   version "0.21.3"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/type-fest/download/type-fest-0.21.3.tgz"
   integrity sha1-0mCiSwGYQ24TP6JqUkptZfo7Ljc=
-
-type-fest@^1.0.1, type-fest@^1.2.1, type-fest@^1.2.2:
-  version "1.4.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/type-fest/download/type-fest-1.4.0.tgz"
-  integrity sha1-6fuBP+O/F0TsNZ1V0a/++nbxS+E=
 
 type-is@~1.6.18:
   version "1.6.18"
@@ -7001,14 +6805,6 @@ v8-compile-cache@^2.0.3:
   version "2.4.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/v8-compile-cache/-/v8-compile-cache-2.4.0.tgz"
   integrity sha512-ocyWc3bAHBB/guyqJQVI5o4BZkPhznPYUG2ea80Gond/BgNWpap8TOmLSeeQG7bnh2KMISxskdADG59j7zruhw==
-
-validate-npm-package-license@^3.0.1:
-  version "3.0.4"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/validate-npm-package-license/download/validate-npm-package-license-3.0.4.tgz"
-  integrity sha1-/JH2uce6FchX9MssXe/uw51PQQo=
-  dependencies:
-    spdx-correct "^3.0.0"
-    spdx-expression-parse "^3.0.0"
 
 vary@~1.1.2:
   version "1.1.2"
@@ -7301,8 +7097,8 @@ wrappy@1:
 
 write-file-atomic@^5.0.1:
   version "5.0.1"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/write-file-atomic/download/write-file-atomic-5.0.1.tgz"
-  integrity sha1-aN9HF8Vcb6QoGnhgtMK6Cm0rEec=
+  resolved "https://registry.yarnpkg.com/write-file-atomic/-/write-file-atomic-5.0.1.tgz#68df4717c55c6fa4281a7860b4c2ba0a6d2b11e7"
+  integrity sha512-+QU2zd6OTD8XWIJCbffaiQeH9U73qIqafo1x6V1snCWYGJf6cVE0cDR4D8xRzcEnfI21IFrUPzPGtcPf8AC+Rw==
   dependencies:
     imurmurhash "^0.1.4"
     signal-exit "^4.0.1"
@@ -7336,16 +7132,6 @@ yaml@^1.10.0:
   version "1.10.2"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/yaml/download/yaml-1.10.2.tgz"
   integrity sha1-IwHF/78StGfejaIzOkWeKeeSDks=
-
-yargs-parser@^20.2.9:
-  version "20.2.9"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/yargs-parser/download/yargs-parser-20.2.9.tgz"
-  integrity sha1-LrfcOwKJcY/ClfNidThFxBoMlO4=
-
-yocto-queue@^0.1.0:
-  version "0.1.0"
-  resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/yocto-queue/download/yocto-queue-0.1.0.tgz"
-  integrity sha1-ApTrPe4FAo0x7hpfosVWpqrxChs=
 
 yocto-queue@^1.0.0:
   version "1.0.0"
