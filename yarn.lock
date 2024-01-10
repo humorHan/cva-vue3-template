@@ -6180,11 +6180,6 @@ prelude-ls@^1.2.1:
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/prettier/download/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha1-6MXX6YpDBf/j3i4fxKyhpxwosdo=
 
-prettier@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.1.tgz#6ba9f23165d690b6cbdaa88cb0807278f7019848"
-  integrity sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==
-
 pretty-error@^4.0.0:
   version "4.0.0"
   resolved "https://artifactory.devops.xiaohongshu.com/artifactory/api/npm/npm-public/pretty-error/download/pretty-error-4.0.0.tgz#90a703f46dd7234adb46d0f84823e9d1cb8f10d6"
